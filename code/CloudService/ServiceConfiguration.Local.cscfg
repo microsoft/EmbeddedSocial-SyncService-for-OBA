@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="CloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="OBAService.WorkerRole">
+    <Instances count="1" />
+    <!-- The local configuration exists only because visual studio requires it.  DO NOT USE. -->
+    <ConfigurationSettings>
+      <Setting name="AADOBAAppId" value="" />
+      <Setting name="AADOBAHomePage" value="" />
+      <Setting name="AADTenantId" value="" />
+      <Setting name="AzureStorageConnectionString" value="" />
+      <Setting name="EmbeddedSocialAdminUserHandle" value="" />
+      <Setting name="EmbeddedSocialAppKey" value="" />
+      <Setting name="EmbeddedSocialUri" value="" />
+      <Setting name="KeyVaultUri" value="" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="OBAApiKey" value="" />
+      <Setting name="OBACertThumbprint" value="" />
+      <Setting name="OBARegionsListUri" value="" />
+      <Setting name="SendGridEmailAddr" value="" />
+      <Setting name="SendGridKey" value="" />
+      <Setting name="ServiceBusConnectionString" value="" />
+      <Setting name="SigningKey" value="" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="OneBusAwayServer" thumbprint="93DFB07CC4292C832F9E8BBDA21F878BD40EC1AC" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

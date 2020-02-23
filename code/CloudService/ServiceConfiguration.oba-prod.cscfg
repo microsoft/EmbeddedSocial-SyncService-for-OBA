@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="CloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="OBAService.WorkerRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="AADOBAAppId" value="e7b11ff7-86e8-40c3-bbb2-fc0204965c3d" />
+      <Setting name="AADOBAHomePage" value="http://oba-prod.cloudapp.net" />
+      <Setting name="AADTenantId" value="72f988bf-86f1-41af-91ab-2d7cd011db47" />
+      <Setting name="AzureStorageConnectionString" value="kv:https://oba-prod.vault.azure.net:443/secrets/AzureStorageConnectionString/3dad16164f3e48e18edf3b9e40b6efc3" />
+      <Setting name="EmbeddedSocialAdminUserHandle" value="41q9zwxl7zB" />
+      <Setting name="EmbeddedSocialAppKey" value="kv:https://oba-prod.vault.azure.net:443/secrets/EmbeddedSocialAppKey/f95418c5355f4815be8766f215a51e69" />
+      <Setting name="EmbeddedSocialUri" value="https://api.embeddedsocial.microsoft.com/" />
+      <Setting name="KeyVaultUri" value="https://oba-prod.vault.azure.net" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="OBAApiKey" value="kv:https://oba-prod.vault.azure.net:443/secrets/OBAApiKey/251bd7a939144fd6b7efc110c7c71fc5" />
+      <Setting name="OBACertThumbprint" value="93DFB07CC4292C832F9E8BBDA21F878BD40EC1AC" />
+      <Setting name="OBARegionsListUri" value="http://regions.onebusaway.org/regions-v3.xml" />
+      <Setting name="SendGridEmailAddr" value="socialplusops@microsoft.com" />
+      <Setting name="SendGridKey" value="kv:https://oba-prod.vault.azure.net:443/secrets/SendGridKey/6d1cdab2b3bf4855875bbe11684b5697" />
+      <Setting name="ServiceBusConnectionString" value="kv:https://oba-prod.vault.azure.net:443/secrets/ServiceBusConnectionString/75a6ffecd0244308ba5669cca49f8b3c" />
+      <Setting name="SigningKey" value="https://oba-prod.vault.azure.net:443/keys/SigningKey/76cdbcd9dbca459db6465bbc7f9a7178" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="OneBusAwayServer" thumbprint="93DFB07CC4292C832F9E8BBDA21F878BD40EC1AC" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

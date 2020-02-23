@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="CloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="OBAService.WorkerRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="AADOBAAppId" value="e7b11ff7-86e8-40c3-bbb2-fc0204965c3d" />
+      <Setting name="AADOBAHomePage" value="http://oba-prod.cloudapp.net" />
+      <Setting name="AADTenantId" value="72f988bf-86f1-41af-91ab-2d7cd011db47" />
+      <Setting name="AzureStorageConnectionString" value="kv:https://oba-dev-alec.vault.azure.net:443/secrets/AzureStorageConnectionString/34b4691525a441989cce861b0f0d35af" />
+      <Setting name="EmbeddedSocialAdminUserHandle" value="3xZpyRqTpMz" />
+      <Setting name="EmbeddedSocialAppKey" value="kv:https://oba-dev-alec.vault.azure.net:443/secrets/EmbeddedSocialAppKey/a541d685b8ef4b0aacb3012f97479854" />
+      <Setting name="EmbeddedSocialUri" value="https://dev-alec.embeddedsocial.microsoft.com/" />
+      <Setting name="KeyVaultUri" value="https://oba-dev-alec.vault.azure.net" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="OBAApiKey" value="kv:https://oba-dev-alec.vault.azure.net:443/secrets/OBAApiKey/c2775d453e97483abce20aa7f45f4086" />
+      <Setting name="OBACertThumbprint" value="93DFB07CC4292C832F9E8BBDA21F878BD40EC1AC" />
+      <Setting name="OBARegionsListUri" value="http://regions.onebusaway.org/regions-v3.xml" />
+      <Setting name="SendGridEmailAddr" value="alecw@microsoft.com" />
+      <Setting name="SendGridKey" value="kv:https://oba-dev-alec.vault.azure.net:443/secrets/SendGridKey/450b245cef654b3ba34d545510456294" />
+      <Setting name="ServiceBusConnectionString" value="kv:https://oba-dev-alec.vault.azure.net:443/secrets/ServiceBusConnectionString/89d30fcee8334bdca0f8be69e513f020" />
+      <Setting name="SigningKey" value="https://oba-dev-alec.vault.azure.net:443/keys/SigningKey/ab8ed162e87c4e20ab01da457d410c32" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="OneBusAwayServer" thumbprint="93DFB07CC4292C832F9E8BBDA21F878BD40EC1AC" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>
