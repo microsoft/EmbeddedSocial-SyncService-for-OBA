@@ -1,0 +1,174 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.2.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBAService.OBAClient", "OBAClient\OBAService.OBAClient.csproj", "{1E496B22-DA6C-488F-973C-796267B02878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBAService.Tests", "Tests\OBAService.Tests.csproj", "{52E10F62-210B-4A94-8286-862789C8D351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBAService.Utils", "Utils\OBAService.Utils.csproj", "{67149419-997C-4A02-8489-48B20153AD81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBAService.Storage", "Storage\OBAService.Storage.csproj", "{9AD24CC5-C504-46B2-B8A9-AA5408229A5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBAService.PublishToEmbeddedSocial", "PublishToEmbeddedSocial\OBAService.PublishToEmbeddedSocial.csproj", "{761C6E5C-C2D0-4AB1-8605-D7651326F35E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBAService.OBADownload", "OBADownload\OBAService.OBADownload.csproj", "{C0DE8157-8B8E-480E-A7D1-3F7535EF703C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBAService.Diff", "Diff\OBAService.Diff.csproj", "{432C5249-19D4-4354-A535-B015162A64E8}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "OBAService.CloudService", "CloudService\OBAService.CloudService.ccproj", "{58E5BC4A-03ED-42A2-B62E-7A47BF014FE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBAService.WorkerRole", "WorkerRole\OBAService.WorkerRole.csproj", "{9C68FE6A-D991-49AB-BB9F-FC9D0CFAB202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBAService.Tools.ManageServerState", "Tools\Ops\ManageServerState\OBAService.Tools.ManageServerState.csproj", "{43B1FEBF-DE95-4D93-9B53-E6F8532B73F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBAService.Email", "Email\OBAService.Email.csproj", "{28AEDC15-C0ED-47C9-908B-C952EC4F375F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		oba-dev-alec|Any CPU = oba-dev-alec|Any CPU
+		oba-dev-sharad|Any CPU = oba-dev-sharad|Any CPU
+		oba-ppe|Any CPU = oba-ppe|Any CPU
+		oba-prod|Any CPU = oba-prod|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E496B22-DA6C-488F-973C-796267B02878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E496B22-DA6C-488F-973C-796267B02878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E496B22-DA6C-488F-973C-796267B02878}.oba-dev-alec|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E496B22-DA6C-488F-973C-796267B02878}.oba-dev-alec|Any CPU.Build.0 = Debug|Any CPU
+		{1E496B22-DA6C-488F-973C-796267B02878}.oba-dev-sharad|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E496B22-DA6C-488F-973C-796267B02878}.oba-dev-sharad|Any CPU.Build.0 = Debug|Any CPU
+		{1E496B22-DA6C-488F-973C-796267B02878}.oba-ppe|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E496B22-DA6C-488F-973C-796267B02878}.oba-ppe|Any CPU.Build.0 = Debug|Any CPU
+		{1E496B22-DA6C-488F-973C-796267B02878}.oba-prod|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E496B22-DA6C-488F-973C-796267B02878}.oba-prod|Any CPU.Build.0 = Debug|Any CPU
+		{1E496B22-DA6C-488F-973C-796267B02878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E496B22-DA6C-488F-973C-796267B02878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E10F62-210B-4A94-8286-862789C8D351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E10F62-210B-4A94-8286-862789C8D351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E10F62-210B-4A94-8286-862789C8D351}.oba-dev-alec|Any CPU.ActiveCfg = oba-dev-alec|Any CPU
+		{52E10F62-210B-4A94-8286-862789C8D351}.oba-dev-alec|Any CPU.Build.0 = oba-dev-alec|Any CPU
+		{52E10F62-210B-4A94-8286-862789C8D351}.oba-dev-sharad|Any CPU.ActiveCfg = oba-dev-sharad|Any CPU
+		{52E10F62-210B-4A94-8286-862789C8D351}.oba-dev-sharad|Any CPU.Build.0 = oba-dev-sharad|Any CPU
+		{52E10F62-210B-4A94-8286-862789C8D351}.oba-ppe|Any CPU.ActiveCfg = oba-ppe|Any CPU
+		{52E10F62-210B-4A94-8286-862789C8D351}.oba-ppe|Any CPU.Build.0 = oba-ppe|Any CPU
+		{52E10F62-210B-4A94-8286-862789C8D351}.oba-prod|Any CPU.ActiveCfg = oba-prod|Any CPU
+		{52E10F62-210B-4A94-8286-862789C8D351}.oba-prod|Any CPU.Build.0 = oba-prod|Any CPU
+		{52E10F62-210B-4A94-8286-862789C8D351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E10F62-210B-4A94-8286-862789C8D351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67149419-997C-4A02-8489-48B20153AD81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67149419-997C-4A02-8489-48B20153AD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67149419-997C-4A02-8489-48B20153AD81}.oba-dev-alec|Any CPU.ActiveCfg = Debug|Any CPU
+		{67149419-997C-4A02-8489-48B20153AD81}.oba-dev-alec|Any CPU.Build.0 = Debug|Any CPU
+		{67149419-997C-4A02-8489-48B20153AD81}.oba-dev-sharad|Any CPU.ActiveCfg = Debug|Any CPU
+		{67149419-997C-4A02-8489-48B20153AD81}.oba-dev-sharad|Any CPU.Build.0 = Debug|Any CPU
+		{67149419-997C-4A02-8489-48B20153AD81}.oba-ppe|Any CPU.ActiveCfg = Debug|Any CPU
+		{67149419-997C-4A02-8489-48B20153AD81}.oba-ppe|Any CPU.Build.0 = Debug|Any CPU
+		{67149419-997C-4A02-8489-48B20153AD81}.oba-prod|Any CPU.ActiveCfg = Debug|Any CPU
+		{67149419-997C-4A02-8489-48B20153AD81}.oba-prod|Any CPU.Build.0 = Debug|Any CPU
+		{67149419-997C-4A02-8489-48B20153AD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67149419-997C-4A02-8489-48B20153AD81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD24CC5-C504-46B2-B8A9-AA5408229A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD24CC5-C504-46B2-B8A9-AA5408229A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD24CC5-C504-46B2-B8A9-AA5408229A5A}.oba-dev-alec|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD24CC5-C504-46B2-B8A9-AA5408229A5A}.oba-dev-alec|Any CPU.Build.0 = Debug|Any CPU
+		{9AD24CC5-C504-46B2-B8A9-AA5408229A5A}.oba-dev-sharad|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD24CC5-C504-46B2-B8A9-AA5408229A5A}.oba-dev-sharad|Any CPU.Build.0 = Debug|Any CPU
+		{9AD24CC5-C504-46B2-B8A9-AA5408229A5A}.oba-ppe|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD24CC5-C504-46B2-B8A9-AA5408229A5A}.oba-ppe|Any CPU.Build.0 = Debug|Any CPU
+		{9AD24CC5-C504-46B2-B8A9-AA5408229A5A}.oba-prod|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD24CC5-C504-46B2-B8A9-AA5408229A5A}.oba-prod|Any CPU.Build.0 = Debug|Any CPU
+		{9AD24CC5-C504-46B2-B8A9-AA5408229A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD24CC5-C504-46B2-B8A9-AA5408229A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{761C6E5C-C2D0-4AB1-8605-D7651326F35E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{761C6E5C-C2D0-4AB1-8605-D7651326F35E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{761C6E5C-C2D0-4AB1-8605-D7651326F35E}.oba-dev-alec|Any CPU.ActiveCfg = Debug|Any CPU
+		{761C6E5C-C2D0-4AB1-8605-D7651326F35E}.oba-dev-alec|Any CPU.Build.0 = Debug|Any CPU
+		{761C6E5C-C2D0-4AB1-8605-D7651326F35E}.oba-dev-sharad|Any CPU.ActiveCfg = Debug|Any CPU
+		{761C6E5C-C2D0-4AB1-8605-D7651326F35E}.oba-dev-sharad|Any CPU.Build.0 = Debug|Any CPU
+		{761C6E5C-C2D0-4AB1-8605-D7651326F35E}.oba-ppe|Any CPU.ActiveCfg = Debug|Any CPU
+		{761C6E5C-C2D0-4AB1-8605-D7651326F35E}.oba-ppe|Any CPU.Build.0 = Debug|Any CPU
+		{761C6E5C-C2D0-4AB1-8605-D7651326F35E}.oba-prod|Any CPU.ActiveCfg = Debug|Any CPU
+		{761C6E5C-C2D0-4AB1-8605-D7651326F35E}.oba-prod|Any CPU.Build.0 = Debug|Any CPU
+		{761C6E5C-C2D0-4AB1-8605-D7651326F35E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{761C6E5C-C2D0-4AB1-8605-D7651326F35E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0DE8157-8B8E-480E-A7D1-3F7535EF703C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0DE8157-8B8E-480E-A7D1-3F7535EF703C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0DE8157-8B8E-480E-A7D1-3F7535EF703C}.oba-dev-alec|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0DE8157-8B8E-480E-A7D1-3F7535EF703C}.oba-dev-alec|Any CPU.Build.0 = Debug|Any CPU
+		{C0DE8157-8B8E-480E-A7D1-3F7535EF703C}.oba-dev-sharad|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0DE8157-8B8E-480E-A7D1-3F7535EF703C}.oba-dev-sharad|Any CPU.Build.0 = Debug|Any CPU
+		{C0DE8157-8B8E-480E-A7D1-3F7535EF703C}.oba-ppe|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0DE8157-8B8E-480E-A7D1-3F7535EF703C}.oba-ppe|Any CPU.Build.0 = Debug|Any CPU
+		{C0DE8157-8B8E-480E-A7D1-3F7535EF703C}.oba-prod|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0DE8157-8B8E-480E-A7D1-3F7535EF703C}.oba-prod|Any CPU.Build.0 = Debug|Any CPU
+		{C0DE8157-8B8E-480E-A7D1-3F7535EF703C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0DE8157-8B8E-480E-A7D1-3F7535EF703C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{432C5249-19D4-4354-A535-B015162A64E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432C5249-19D4-4354-A535-B015162A64E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432C5249-19D4-4354-A535-B015162A64E8}.oba-dev-alec|Any CPU.ActiveCfg = Debug|Any CPU
+		{432C5249-19D4-4354-A535-B015162A64E8}.oba-dev-alec|Any CPU.Build.0 = Debug|Any CPU
+		{432C5249-19D4-4354-A535-B015162A64E8}.oba-dev-sharad|Any CPU.ActiveCfg = Debug|Any CPU
+		{432C5249-19D4-4354-A535-B015162A64E8}.oba-dev-sharad|Any CPU.Build.0 = Debug|Any CPU
+		{432C5249-19D4-4354-A535-B015162A64E8}.oba-ppe|Any CPU.ActiveCfg = Debug|Any CPU
+		{432C5249-19D4-4354-A535-B015162A64E8}.oba-ppe|Any CPU.Build.0 = Debug|Any CPU
+		{432C5249-19D4-4354-A535-B015162A64E8}.oba-prod|Any CPU.ActiveCfg = Debug|Any CPU
+		{432C5249-19D4-4354-A535-B015162A64E8}.oba-prod|Any CPU.Build.0 = Debug|Any CPU
+		{432C5249-19D4-4354-A535-B015162A64E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432C5249-19D4-4354-A535-B015162A64E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E5BC4A-03ED-42A2-B62E-7A47BF014FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E5BC4A-03ED-42A2-B62E-7A47BF014FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E5BC4A-03ED-42A2-B62E-7A47BF014FE8}.oba-dev-alec|Any CPU.ActiveCfg = oba-dev-alec|Any CPU
+		{58E5BC4A-03ED-42A2-B62E-7A47BF014FE8}.oba-dev-alec|Any CPU.Build.0 = oba-dev-alec|Any CPU
+		{58E5BC4A-03ED-42A2-B62E-7A47BF014FE8}.oba-dev-sharad|Any CPU.ActiveCfg = oba-dev-sharad|Any CPU
+		{58E5BC4A-03ED-42A2-B62E-7A47BF014FE8}.oba-dev-sharad|Any CPU.Build.0 = oba-dev-sharad|Any CPU
+		{58E5BC4A-03ED-42A2-B62E-7A47BF014FE8}.oba-ppe|Any CPU.ActiveCfg = oba-ppe|Any CPU
+		{58E5BC4A-03ED-42A2-B62E-7A47BF014FE8}.oba-ppe|Any CPU.Build.0 = oba-ppe|Any CPU
+		{58E5BC4A-03ED-42A2-B62E-7A47BF014FE8}.oba-prod|Any CPU.ActiveCfg = oba-prod|Any CPU
+		{58E5BC4A-03ED-42A2-B62E-7A47BF014FE8}.oba-prod|Any CPU.Build.0 = oba-prod|Any CPU
+		{58E5BC4A-03ED-42A2-B62E-7A47BF014FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E5BC4A-03ED-42A2-B62E-7A47BF014FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C68FE6A-D991-49AB-BB9F-FC9D0CFAB202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C68FE6A-D991-49AB-BB9F-FC9D0CFAB202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C68FE6A-D991-49AB-BB9F-FC9D0CFAB202}.oba-dev-alec|Any CPU.ActiveCfg = oba-dev-alec|Any CPU
+		{9C68FE6A-D991-49AB-BB9F-FC9D0CFAB202}.oba-dev-alec|Any CPU.Build.0 = oba-dev-alec|Any CPU
+		{9C68FE6A-D991-49AB-BB9F-FC9D0CFAB202}.oba-dev-sharad|Any CPU.ActiveCfg = oba-dev-sharad|Any CPU
+		{9C68FE6A-D991-49AB-BB9F-FC9D0CFAB202}.oba-dev-sharad|Any CPU.Build.0 = oba-dev-sharad|Any CPU
+		{9C68FE6A-D991-49AB-BB9F-FC9D0CFAB202}.oba-ppe|Any CPU.ActiveCfg = oba-ppe|Any CPU
+		{9C68FE6A-D991-49AB-BB9F-FC9D0CFAB202}.oba-ppe|Any CPU.Build.0 = oba-ppe|Any CPU
+		{9C68FE6A-D991-49AB-BB9F-FC9D0CFAB202}.oba-prod|Any CPU.ActiveCfg = oba-prod|Any CPU
+		{9C68FE6A-D991-49AB-BB9F-FC9D0CFAB202}.oba-prod|Any CPU.Build.0 = oba-prod|Any CPU
+		{9C68FE6A-D991-49AB-BB9F-FC9D0CFAB202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C68FE6A-D991-49AB-BB9F-FC9D0CFAB202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B1FEBF-DE95-4D93-9B53-E6F8532B73F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B1FEBF-DE95-4D93-9B53-E6F8532B73F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B1FEBF-DE95-4D93-9B53-E6F8532B73F6}.oba-dev-alec|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B1FEBF-DE95-4D93-9B53-E6F8532B73F6}.oba-dev-alec|Any CPU.Build.0 = Debug|Any CPU
+		{43B1FEBF-DE95-4D93-9B53-E6F8532B73F6}.oba-dev-sharad|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B1FEBF-DE95-4D93-9B53-E6F8532B73F6}.oba-dev-sharad|Any CPU.Build.0 = Debug|Any CPU
+		{43B1FEBF-DE95-4D93-9B53-E6F8532B73F6}.oba-ppe|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B1FEBF-DE95-4D93-9B53-E6F8532B73F6}.oba-ppe|Any CPU.Build.0 = Debug|Any CPU
+		{43B1FEBF-DE95-4D93-9B53-E6F8532B73F6}.oba-prod|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B1FEBF-DE95-4D93-9B53-E6F8532B73F6}.oba-prod|Any CPU.Build.0 = Debug|Any CPU
+		{43B1FEBF-DE95-4D93-9B53-E6F8532B73F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B1FEBF-DE95-4D93-9B53-E6F8532B73F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28AEDC15-C0ED-47C9-908B-C952EC4F375F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28AEDC15-C0ED-47C9-908B-C952EC4F375F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28AEDC15-C0ED-47C9-908B-C952EC4F375F}.oba-dev-alec|Any CPU.ActiveCfg = Debug|Any CPU
+		{28AEDC15-C0ED-47C9-908B-C952EC4F375F}.oba-dev-alec|Any CPU.Build.0 = Debug|Any CPU
+		{28AEDC15-C0ED-47C9-908B-C952EC4F375F}.oba-dev-sharad|Any CPU.ActiveCfg = Debug|Any CPU
+		{28AEDC15-C0ED-47C9-908B-C952EC4F375F}.oba-dev-sharad|Any CPU.Build.0 = Debug|Any CPU
+		{28AEDC15-C0ED-47C9-908B-C952EC4F375F}.oba-ppe|Any CPU.ActiveCfg = Debug|Any CPU
+		{28AEDC15-C0ED-47C9-908B-C952EC4F375F}.oba-ppe|Any CPU.Build.0 = Debug|Any CPU
+		{28AEDC15-C0ED-47C9-908B-C952EC4F375F}.oba-prod|Any CPU.ActiveCfg = Debug|Any CPU
+		{28AEDC15-C0ED-47C9-908B-C952EC4F375F}.oba-prod|Any CPU.Build.0 = Debug|Any CPU
+		{28AEDC15-C0ED-47C9-908B-C952EC4F375F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28AEDC15-C0ED-47C9-908B-C952EC4F375F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

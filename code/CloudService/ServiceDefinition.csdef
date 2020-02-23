@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="CloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2015-04.2.6">
+  <WorkerRole name="OBAService.WorkerRole" vmsize="Standard_D3">
+    <ConfigurationSettings>
+      <Setting name="AADOBAAppId" />
+      <Setting name="AADOBAHomePage" />
+      <Setting name="AADTenantId" />
+      <Setting name="AzureStorageConnectionString" />
+      <Setting name="EmbeddedSocialAdminUserHandle" />
+      <Setting name="EmbeddedSocialAppKey" />
+      <Setting name="EmbeddedSocialUri" />
+      <Setting name="KeyVaultUri" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
+      <Setting name="OBAApiKey" />
+      <Setting name="OBACertThumbprint" />
+      <Setting name="OBARegionsListUri" />
+      <Setting name="SendGridEmailAddr" />
+      <Setting name="SendGridKey" />
+      <Setting name="ServiceBusConnectionString" />
+      <Setting name="SigningKey" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="OneBusAwayServer" storeLocation="LocalMachine" storeName="My" />
+    </Certificates>
+  </WorkerRole>
+</ServiceDefinition>
